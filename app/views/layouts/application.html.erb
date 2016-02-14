@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RailsProjectManager</title>
+  <%= render partial: "shared/includes"%>
+</head>
+<body>
+<%if notice%>
+	<p id="notice"><%= notice %></p>
+<%end%>
+<%= yield %>
+
+</body>
+</html>
