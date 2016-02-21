@@ -10,7 +10,7 @@ namespace :app do
   desc "Reset"
   task :reset => [:ensure_development_environment, "db:drop", "db:create", "db:migrate", "db:seed", "app:populate"]
   
-  desc "Populate the database with developmenbt data."
+  desc "Populate the database with development data."
   task :populate => :environment do
     [
       {:first_name => "Darth",  :last_name => "Vadar"},
