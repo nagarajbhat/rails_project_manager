@@ -5,7 +5,7 @@ module ProjectsHelper
 			 link_to_icon('show',project),
 			 link_to_icon('edit',edit_project_path(project)),
 			 link_to_icon('destroy',project,{
-				:confirm => "are you sure?",
+				data: {:confirm => "are you sure?"},
 				:method => :delete
 				})
 			].join(' ').html_safe

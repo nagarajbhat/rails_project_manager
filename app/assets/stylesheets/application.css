@@ -1,27 +1,27 @@
 body {
-  width: 600px;
+  width: 800px;
   margin: 20px auto;
-  background-color: #333; 
+  //background-color: #1B98E0; 
+  background-color:#232B2B;
   color: #333;
 }
 
 body, p, ol, ul, td {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size:   16px;
-  line-height: 24px;
   color: white;
 }
 
 a { 
-  color: #ccc;
+  color: #E9E9E9;
   border-bottom: 1px solid #888;
   text-decoration: none;
 }
-a:visited { color: #999; }
+a:visited { color: #E9E9E9; }
 a:hover { color: #fff; }
 
 a.icon {
-  opacity: 0.4;
+  opacity: 0.6;
   border-bottom: none;
 }
 
@@ -39,7 +39,7 @@ header p {
   color: #eee;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 40px;
   font-weight: normal;
 }
 h1 {
@@ -53,7 +53,10 @@ label {
 }
 
 .odd {
-  background-color: #373737;
+  background-color: #20948B;
+}
+.even {
+  background-color: #4EB1BA;
 }
 
 .project .role {
@@ -73,7 +76,7 @@ label {
 }
 .project .role .role-title {
   display: block;
-  color: #999;
+  color: #E9E9E9;
   padding: 0 0 4px 6px;
 }
 .project .role .status-title {

@@ -8,7 +8,7 @@
 
 [
 	{:title =>"Planning", :position => 1},
-	{:title => "Implemented", :position => 2},
+	{:title => "Implementing", :position => 2},
 	{:title => "Completed", :position => 3},
 	{:title => "Maintaining", :position => 4},
 ].each do |attributes|
